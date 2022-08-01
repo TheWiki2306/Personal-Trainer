@@ -1,0 +1,36 @@
+.scroll__container {
+    position: absolute;
+    top: 30rem;
+    width: 100%;
+    /* top: 40rem; */
+    background: var(--color-yel);
+    overflow: hidden;
+}
+
+.scroll__container h4 {
+    /* position: relative; */
+    width: 100%;
+    font-size: 0.5em;
+    letter-spacing: 0.3rem;
+    padding: 0.3rem;
+    color: black;
+    text-align: center;
+    transform: translateX(100%);
+    animation: scrolling 25s linear infinite;
+}
+
+.dot {
+
+    padding-top: 0.2rem;
+    font-weight: bolder;
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

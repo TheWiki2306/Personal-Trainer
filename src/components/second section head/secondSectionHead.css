@@ -1,0 +1,41 @@
+.second__section {
+    position: relative;
+    bottom: 131rem;
+    line-height: 1.2rem;
+}
+
+.second__section .bars {
+    display: flex;
+    gap: 0.25rem;
+    margin-bottom: 2rem;
+
+}
+
+.second__section .bar {
+    display: block;
+    background: linear-gradient(rgba(49, 49, 49, 0.8)20%, rgb(255, 238, 0)100%);
+    width: 0.1em;
+    height: 2.3rem;
+}
+
+.bars .bar {
+    transform: translateY(2px) rotate(15deg);
+}
+
+.second__section h3 {
+    font-size: 1.2rem;
+    width: 2rem;
+    margin-bottom: 0.8rem;
+    margin-top: -4.2rem;
+    margin-left: 2rem;
+}
+
+.second__section small {
+    font-size: 0.6em;
+    line-height: -0.1rem;
+    color: var(--color-grey);
+}
+
+.texts {
+    line-height: 0.6rem;
+}

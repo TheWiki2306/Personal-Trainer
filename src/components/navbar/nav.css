@@ -1,0 +1,45 @@
+.nav__container {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 35rem;
+}
+
+.nav__container small {
+    color: var(--color-yel);
+}
+
+.nav__container span {
+    color: var(--color-grey);
+}
+
+.nav__container-list .list-items {
+    display: flex;
+    gap: 5rem;
+    font-size: 0.8em;
+}
+
+.list-items li a {
+    color: var(--color-white);
+}
+
+.list-items li a:hover {
+    color: var(--color-grey);
+    transition: var(--transition);
+    border: 1px var(--color-grey) solid;
+    border-radius: 0.3rem;
+    background: var(--color-white);
+    padding: 0.5rem;
+}
+
+.list-items li .sign {
+    border: 1px var(--color-white) solid;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+
+}
+
+.list-items li .sign:hover {
+    border-color: var(--color-grey);
+    background: var(--color-yel);
+}

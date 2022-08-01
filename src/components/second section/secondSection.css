@@ -1,0 +1,26 @@
+.container.second__container {
+    width: 85%;
+
+}
+
+.second__container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1rem;
+    position: absolute;
+    bottom: 129rem;
+
+}
+
+.second__container-cards {
+    background: black;
+}
+
+.second__container-cards h3 {
+    margin-top: 2rem;
+}
+
+.second__container img {
+    width: 12rem;
+    height: 15rem;
+}

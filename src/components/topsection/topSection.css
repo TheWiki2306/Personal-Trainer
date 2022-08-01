@@ -1,0 +1,42 @@
+.top__container {
+    margin-top: 4rem;
+    line-height: 1.5rem;
+
+}
+
+.top__container p {
+    font-size: 0.9em;
+    color: var(--color-yel);
+
+}
+
+.top__container h2 {
+    font-size: 3em;
+    line-height: 3rem;
+}
+
+.top__container-join {
+    margin-top: 1.5rem;
+}
+
+.top__container-join a {
+    gap: 0.5rem;
+    background: var(--color-yel);
+    padding: 0.5rem 0.6rem 0.5rem 0.6rem;
+    width: 4.8rem;
+    border-radius: 1rem;
+    color: var(--color-bg);
+    font-size: 0.5em;
+
+}
+
+.top__container-join a:hover {
+    background: var(--color-white);
+    color: var(--color-grey);
+    transition: var(--transition);
+
+}
+
+.top__container-join .sign {
+    font-size: 0.5rem;
+}
