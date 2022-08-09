@@ -43,3 +43,33 @@
     border-color: var(--color-grey);
     background: var(--color-yel);
 }
+
+
+@media screen and (max-width: 1024px) {
+
+    .nav__container {
+        gap: 20rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav__container {
+        gap: 13rem;
+    }
+
+    .nav__container-list .list-items {
+        gap: 3.2rem;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .nav__container {
+        gap: 5rem;
+    }
+
+    .nav__container-list .list-items {
+        display: none;
+        gap: 1rem;
+    }
+}

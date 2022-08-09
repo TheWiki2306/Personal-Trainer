@@ -7,7 +7,7 @@ import S_image3 from '../../assets/images/weights2.jpg'
 import S_image4 from '../../assets/images/jog2.jpg'
 import S_image5 from '../../assets/images/leg2.jpg'
 import S_image6 from '../../assets/images/butt1.jpg'
-
+import { BsChevronCompactRight } from 'react-icons/bs'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -58,7 +58,47 @@ const SecondSection = () => {
         slidesToShow: 5,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000
+        autoplaySpeed: 3000,
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    dots: true,
+                    infinite: true,
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                }
+            },
+
+            {
+                breakpoint: 768,
+                settings: {
+                    dots: true,
+                    infinite: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    dots: true,
+                    infinite: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 400,
+                settings: {
+                    dots: true,
+                    infinite: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
     };
     return (
         <section>
@@ -66,10 +106,9 @@ const SecondSection = () => {
                 {
                     data.map(({ image, type, description }, index) => {
                         return (
-
                             <div key={index} className="second__container-cards">
                                 <img src={image} alt="" />
-                                <h3>{type} </h3>
+                                <h3> <a href="">{type}   <BsChevronCompactRight className='arrow' /></a></h3>
                                 <small>{description}</small>
                             </div>
 

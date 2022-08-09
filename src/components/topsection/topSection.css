@@ -40,3 +40,45 @@
 .top__container-join .sign {
     font-size: 0.5rem;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .top__container p {
+        font-size: 0.7em;
+        color: var(--color-yel);
+
+    }
+
+    .top__container h2 {
+        font-size: 2.5em;
+        line-height: 2.5rem;
+    }
+
+    .top__container-image img {
+        width: 55rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .top__container p {
+        font-size: 0.6em;
+        color: var(--color-yel);
+
+    }
+
+    .top__container h2 {
+        font-size: 2em;
+        line-height: 2rem;
+    }
+
+
+    .top__container-image img {
+        width: 43rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .top__container-image img {
+        width: 32rem;
+    }
+}

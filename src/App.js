@@ -5,6 +5,8 @@ import TopSection from './components/topsection/TopSection';
 import SlidingText from './components/sliding text/SlidingText';
 import SecondSection from './components/second section/SecondSection';
 import SecondSectionHead from './components/second section head/SecondSectionHead';
+import SlidingSideBar from './components/sliding sidebar/SlidingSideBar';
+import PassHead from './components/Pass/PassHead';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <SlidingText />
       <SecondSectionHead />
       <SecondSection />
+      <SlidingSideBar />
+      <PassHead />
     </div>
   );
 }

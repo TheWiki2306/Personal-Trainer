@@ -1,6 +1,8 @@
 .container.second__container {
-    width: 85%;
-
+    width: 87%;
+    background: black;
+    padding: 1rem;
+    padding-bottom: 0.1rem;
 }
 
 .second__container {
@@ -12,15 +14,79 @@
 
 }
 
-.second__container-cards {
-    background: black;
+
+.second__container-cards img {
+    width: 12rem;
+    height: 13rem;
+    overflow: hidden;
 }
 
 .second__container-cards h3 {
-    margin-top: 2rem;
+    margin-top: 1rem;
+    font-size: 0.8em;
 }
 
-.second__container img {
-    width: 12rem;
-    height: 15rem;
+.second__container-cards h3 a {
+    color: var(--color-white);
+}
+
+.second__container-cards small {
+    font-size: 0.5rem;
+}
+
+.arrow {
+    margin-left: 1rem;
+    color: var(--color-yel);
+    padding-top: 0.3rem;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .container.second__container {
+        width: 93%;
+    }
+
+    .second__container {
+        bottom: 108rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container.second__container {
+        width: 95%;
+        margin-left: -0.01rem;
+        padding-right: -2rem;
+    }
+
+    .second__container {
+        bottom: 84rem;
+    }
+
+    .second__container-cards h3 a {
+        font-size: 0.7rem;
+    }
+
+    .arrow {
+        padding-top: 0.5rem;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .container.second__container {
+        width: 95%;
+
+    }
+
+    .second__container {
+        bottom: 59rem;
+        right: -0.7rem;
+
+        width: 100%;
+    }
+
+    .second__container-cards img {
+        width: 10rem;
+        height: 8rem;
+    }
 }

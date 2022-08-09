@@ -1,10 +1,11 @@
 import React from 'react'
-import './secondSectionHead.css'
+import './pass.css';
+import Pass from './Pass';
 
-const SecondSectionHead = () => {
+const PassHead = () => {
     return (
         <section>
-            <div className='container second__section'>
+            <div className='container pass__container'>
                 <ul className="bars">
                     <li className="bar"></li>
                     <li className="bar"></li>
@@ -12,14 +13,15 @@ const SecondSectionHead = () => {
                     <li className="bar"></li>
                 </ul>
 
-                <h3>OUR <br /> PROGRAMS</h3>
-                <h4>OUR PROGRAMS</h4>
+                <h4>ENTRANCE</h4>
                 <div className="texts">
                     <small>Lorem ipsum dolor sit amet consectetur<br />adipisicing elit. Cumque, ea!</small>
                 </div>
+
+                <Pass />
             </div>
         </section>
     )
 }
 
-export default SecondSectionHead;
+export default PassHead;
