@@ -259,6 +259,12 @@
     }
 }
 
+@media screen and (max-width: 380px) {
+    .second__container {
+        bottom: 75rem;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .second__container {
         bottom: 64rem;

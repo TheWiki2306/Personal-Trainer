@@ -149,6 +149,12 @@
 
 }
 
+@media screen and (max-width: 380px) {
+    .second__section {
+        bottom: 75px;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .second__section {
         bottom: 65rem;
