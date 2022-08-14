@@ -645,7 +645,7 @@
 
 @media screen and (max-width: 400px) {
     .pass__container {
-        bottom: 84rem;
+        bottom: 81rem;
     }
 
     .one__day__pass {
@@ -654,7 +654,6 @@
         margin-bottom: 2.5rem;
         margin-left: 1.6rem;
     }
-
 
     .one__day__pass .day {
         margin-top: 7.3rem;

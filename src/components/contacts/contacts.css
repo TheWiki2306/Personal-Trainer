@@ -184,17 +184,58 @@
     }
 
     .contact__options {
-        margin-left: 2.6rem;
+        margin-left: 1.9rem;
+    }
+
+    .contact__option {
+        width: 21rem;
+        height: 15rem;
+        margin-bottom: 1.5rem;
+    }
+
+
+}
+
+@media screen and (max-width: 412px) {
+    .container.contact__container {
+        margin-top: -105rem;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .container.contact__container {
+        margin-top: -98rem;
+    }
+
+    .contact__options {
+        margin-left: 1.7rem;
     }
 
     .contact__option {
         width: 20rem;
-        height: 15rem;
-        border-radius: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container.contact__container {
+        margin-top: -78rem;
     }
 
-    .contact__option-icon {
-        font-size: 1.5rem;
-        margin-top: 3rem;
+    .contact__options {
+        margin-left: 1.1rem;
+    }
+
+    .contact__option {
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .container.contact__container {
+        margin-top: -88rem;
+    }
+
+    .contact__options {
+        margin-left: 0.7rem;
     }
 }

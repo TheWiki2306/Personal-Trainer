@@ -75,6 +75,7 @@
 }
 
 @media screen and (max-width: 920px) {
+
     .second__container {
         bottom: 149rem;
 
@@ -108,8 +109,8 @@
     }
 
     .second__container-cards img {
-        width: 18rem;
-        padding-left: 2rem;
+        width: 15rem;
+        padding-left: 1.5rem;
 
     }
 
