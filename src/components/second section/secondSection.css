@@ -235,7 +235,7 @@
     }
 
     .second__container {
-        bottom: 86rem;
+        bottom: 70rem;
         gap: 2rem;
     }
 
@@ -259,6 +259,13 @@
     }
 }
 
+@media screen and (max-width: 393px) {
+    .second__container {
+        bottom: 86rem;
+        gap: 2rem;
+    }
+
+}
 
 @media screen and (max-width: 375px) {
     .second__container {
@@ -276,12 +283,6 @@
     }
 }
 
-
-@media screen and (max-width: 320px) {
-    .second__container {
-        bottom: 55rem;
-    }
-}
 
 @media screen and (max-width: 280px) {
     .container.second__container {
