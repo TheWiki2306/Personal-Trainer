@@ -1,0 +1,247 @@
+.testimonials {
+    background: var(--color-white);
+    color: var(--color-bg);
+    position: relative;
+    bottom: 35rem;
+    padding-top: 3rem;
+    height: 59vh;
+}
+
+
+.testimonials__container .bars {
+    display: flex;
+    gap: 0.25rem;
+    margin-bottom: 2rem;
+
+}
+
+.testimonials__container .bar {
+    display: block;
+    background: var(--color-grey);
+    width: 0.1em;
+    height: 1.3rem;
+}
+
+.testimonials__container .bar {
+    transform: translateY(2px) rotate(15deg);
+}
+
+.testimonials__container h3 {
+    font-size: 1.2em;
+    font-weight: bolder;
+    margin-top: -3.1rem;
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.testimonials__container .texts {
+    font-size: 0.6em;
+    line-height: 0.6rem;
+    margin-bottom: 2rem;
+}
+
+.testimonies__container {
+    display: flex;
+    gap: 3rem;
+}
+
+.testimonies__container .testimony__one {
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+}
+
+.testimonies__container .testimony__one p {
+    font-size: 0.9em;
+    margin-bottom: 2rem;
+
+}
+
+.testimonies__container .image__and__text {
+    display: flex;
+    gap: 0;
+    align-items: center;
+}
+
+.testimonies__container .image__and__text img {
+    margin-left: -1rem;
+    width: 5rem;
+    clip-path: circle(35%);
+}
+
+.testimonies__container .image__and__text .text {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.testimonies__container .image__and__text .text .name {
+    font-size: 0.6em;
+}
+
+.testimonies__container .image__and__text .text small {
+    font-size: 0.4em;
+}
+
+.testimonies__container .testimony__two {
+    background: var(--color-yel);
+    margin-top: -1rem;
+    padding: 2.8rem 3rem 0 3rem;
+    height: 12rem;
+}
+
+.testimonies__container .testimony__two p {
+    font-size: 0.9em;
+    margin-bottom: 1rem;
+}
+
+.testimonies__container .image__and__text {
+    display: flex;
+    gap: 0;
+    align-items: center;
+
+}
+
+.testimonies__container .image__and__text img {
+    margin-left: -1rem;
+    width: 5rem;
+    clip-path: circle(35%);
+}
+
+.testimonies__container .image__and__text .text {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.testimonies__container .image__and__text .text .name {
+    font-size: 0.6em;
+}
+
+.testimonies__container .image__and__text .text small {
+    font-size: 0.4em;
+}
+
+@media screen and (max-width: 1280px) {
+    .testimonials {
+        height: 50vh;
+        bottom: 58rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .testimonials {
+        height: 65vh;
+        bottom: 43rem;
+    }
+
+    .testimonies__container .testimony__two {
+        height: 13rem;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .testimonials {
+        height: 30vh;
+        bottom: 140rem;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .testimonials {
+        bottom: 116rem;
+        height: 34vh;
+    }
+
+
+    .testimonies__container .testimony__two {
+        height: 14rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .testimonials {
+        bottom: 100rem;
+        height: 25rem;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    .testimonials {
+        bottom: 65rem;
+        height: 23rem;
+        padding-top: 2rem;
+    }
+
+    .testimonials__container .bar {
+        height: 0.8rem;
+    }
+
+    .testimonials__container h3 {
+        font-size: 0.8em;
+        margin-top: -2.7rem;
+    }
+
+    .testimonies__container .testimony__one p {
+        font-size: 0.7em;
+    }
+
+    .testimonies__container .testimony__two {
+        height: 14.5rem;
+    }
+
+
+    .testimonies__container .testimony__two p {
+        font-size: 0.7em;
+    }
+
+
+}
+
+@media screen and (max-width: 414px) {
+
+    .testimonials {
+        bottom: 85rem;
+        height: 32rem;
+    }
+
+    .testimonies__container {
+        display: block;
+    }
+
+    .testimonies__container .testimony__one {
+        padding: 0 0.5rem;
+    }
+
+    .testimonies__container .testimony__two {
+        margin-top: -8rem;
+        padding: 1rem;
+        height: 12rem;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .testimonials {
+        bottom: 91rem;
+
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .testimonials {
+        bottom: 82rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .testimonials {
+        bottom: 62rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .testimonials {
+        bottom: 72rem;
+    }
+}

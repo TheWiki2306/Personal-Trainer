@@ -3,7 +3,7 @@ import './secondSectionHead.css'
 
 const SecondSectionHead = () => {
     return (
-        <section>
+        <section id='program'>
             <div className='container second__section'>
                 <ul className="bars">
                     <li className="bar"></li>
@@ -12,7 +12,7 @@ const SecondSectionHead = () => {
                     <li className="bar"></li>
                 </ul>
 
-                <h3>OUR <br /> PROGRAMS</h3>
+                <h3 className='programs'>OUR <br /> PROGRAMS</h3>
                 <h4>OUR PROGRAMS</h4>
                 <div className="texts">
                     <small>Lorem ipsum dolor sit amet consectetur<br />adipisicing elit. Cumque, ea!</small>

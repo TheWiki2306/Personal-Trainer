@@ -4,16 +4,18 @@ import './nav.css';
 const Nav = () => {
     return (
         <nav>
-            <div className="container nav__container">
-                <small>GYM <span>online.</span> </small>
+            <div id="nav">
+                <div className="container nav__container">
+                    <small>GYM <span>online.</span> </small>
 
-                <div className="nav__container-list">
-                    <ul className='list-items'>
-                        <li><a href="">Program</a></li>
-                        <li><a href="">Testimonials</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li ><a href="" className='sign'>Sign Up</a></li>
-                    </ul>
+                    <div className="nav__container-list">
+                        <ul className='list-items'>
+                            <li><a href="#program">Program</a></li>
+                            <li><a href="#testimonial">Testimonials</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li ><a href="" className='sign'>Sign Up</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>

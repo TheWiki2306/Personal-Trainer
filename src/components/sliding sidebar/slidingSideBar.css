@@ -24,7 +24,6 @@
 
     .sliding__container {
         padding: 5rem 2rem 5rem 2rem;
-
         /* background: rgb(28, 28, 28); */
         background: rgb(41, 41, 41);
         line-height: 1.5rem;
@@ -36,7 +35,7 @@
         top: 0;
         left: -100%;
         width: 100%;
-        height: 290vh;
+        height: 100vh;
         /* margin-left: 20rem; */
         transition: var(--transition);
     }
@@ -92,9 +91,6 @@
 
     }
 
-
-
-
     .sliding__container .signin {
         color: var(--color-grey);
         background: var(--color-bg);
@@ -126,5 +122,94 @@
         color: var(--color-bg);
         background: var(--color-yel);
         transition: var(--transition);
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .sliding__container {
+        height: 105vh;
+    }
+
+    .close {
+        left: 29rem;
+    }
+
+    .sliding__container .signup {
+        margin-left: 25rem;
+        width: 4.6rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .close {
+        left: 25rem;
+    }
+
+    .sliding__container .signup {
+        margin-left: 21rem;
+        width: 4.6rem;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .close {
+        left: 21rem;
+    }
+
+    .list__container {
+        width: 21.5rem;
+    }
+
+    .sliding__container .signup {
+        margin-left: 17rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .close {
+        left: 19rem;
+    }
+
+    .list__container {
+        margin-left: 0;
+        padding: 0.5rem 0 0.5rem 1rem;
+        width: 20rem;
+    }
+
+    .sliding__container .signup {
+        margin-left: 15.5rem;
+    }
+
+
+}
+
+@media screen and (max-width: 360px) {
+    .close {
+        left: 17.5rem;
+    }
+
+    .list__container {
+        width: 18.5rem;
+    }
+
+    .sliding__container .signup {
+        margin-left: 13.5rem;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .close {
+        left: 5rem;
+    }
+
+    .list__container {
+        width: 14.5rem;
+        margin-left: -0.5rem;
+    }
+
+    .sliding__container .signup {
+        margin-left: 9rem;
     }
 }

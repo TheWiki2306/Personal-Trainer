@@ -13,7 +13,7 @@ const PassHead = () => {
                     <li className="bar"></li>
                 </ul>
 
-                <h4>ENTRANCE</h4>
+                <h4>ENTRANCE </h4>
                 <div className="texts">
                     <small>Lorem ipsum dolor sit amet consectetur<br />adipisicing elit. Cumque, ea!</small>
                 </div>

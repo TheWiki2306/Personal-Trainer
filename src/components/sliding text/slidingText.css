@@ -10,7 +10,7 @@
 .scroll__container h4 {
     /* position: relative; */
     width: 100%;
-    font-size: 0.3em;
+    font-size: 0.4em;
     letter-spacing: 0.1rem;
     padding: 0.3rem;
     color: black;
@@ -39,6 +39,11 @@
     .scroll__container {
         top: 25rem;
     }
+
+    .scroll__container h4 {
+        font-size: 0.3em;
+        padding: 0.3rem;
+    }
 }
 
 
@@ -46,11 +51,32 @@
     .scroll__container {
         top: 23rem;
     }
+
+    .scroll__container h4 {
+        padding: 0.3rem;
+        font-size: 0.3em;
+    }
 }
 
 @media screen and (max-width: 600px) {
     .scroll__container {
         top: 23rem;
 
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .scroll__container {
+        top: 22rem;
+    }
+
+    .scroll__container h4 {
+        padding: 0.3rem 0;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .scroll__container h4 {
+        font-size: 0.3rem;
     }
 }

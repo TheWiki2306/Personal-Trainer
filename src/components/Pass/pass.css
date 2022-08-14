@@ -1,6 +1,6 @@
 .pass__container {
     position: relative;
-    bottom: 120rem;
+    bottom: 40rem;
 }
 
 .pass__container .bars {
@@ -14,7 +14,7 @@
     display: block;
     background: linear-gradient(rgba(49, 49, 49, 0.8)20%, rgb(255, 238, 0)100%);
     width: 0.1em;
-    height: 2.3rem;
+    height: 1.3rem;
 }
 
 .bars .bar {
@@ -23,7 +23,7 @@
 
 .pass__container h4 {
     margin-left: 1.5rem;
-    margin-top: -3rem;
+    margin-top: -2.9rem;
     margin-bottom: 0.5rem;
 }
 
@@ -153,7 +153,7 @@
     margin-top: 7.3rem;
     margin-left: 7rem;
     margin-bottom: -1.5rem;
-    color: var(--color-yel);
+    color: var(--color-white);
     padding-top: 3.7rem;
     padding-left: 0.5rem;
     font-size: 1.1rem;
@@ -198,11 +198,577 @@
     transition: var(--transition);
 }
 
-@media screen and(max-width: 1024px) {
+@media screen and (max-width: 1280px) {
 
-    .container.pass__container {}
+    .pass__container {
+        bottom: 65rem;
+    }
+
+    .pass__container .bar {
+        height: 1.3rem;
+    }
+
+    .pass__container h4 {
+        font-size: 1.1rem;
+    }
+
+    .one__day__pass .day {
+        margin-left: 8.4rem;
+    }
+
+    .one__day__pass .week {
+        margin-left: 7rem;
+
+    }
+
+    .monthly__pass .day {
+        margin-left: 6.2rem;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .pass__container {
+        bottom: 47rem;
+    }
 
     .pass {
-        /* gap: 2rem; */
+        gap: 5rem;
+    }
+
+    .one__day__pass .day {
+        font-size: 0.8rem;
+        margin-left: 9.3rem;
+    }
+
+    .one__day__pass .week {
+        font-size: 0.8rem;
+    }
+
+    .one__day__pass img {
+        width: 5rem;
+        bottom: 8rem;
+    }
+
+    .price {
+        bottom: 9.3rem;
+    }
+
+    .monthly__pass .day {
+        font-size: 0.8rem;
+    }
+
+    .monthly__pass .price {
+        bottom: 15.8rem;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .pass__container {
+        bottom: 145rem;
+    }
+
+    .one__day__pass .day {
+        margin-left: 7.9rem;
+    }
+
+    .one__day__pass .week {
+        margin-left: 6.8rem;
+    }
+
+    .price {
+        gap: 5rem;
+    }
+
+    .monthly__pass .day {
+        margin-left: 6.1rem;
+    }
+
+    .monthly__pass .price {
+        gap: 5rem;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .pass__container {
+        bottom: 121rem;
+    }
+
+    .pass {
+        gap: 2rem;
+    }
+
+    .one__day__pass .day {
+        margin-left: 8.2rem;
+    }
+
+    .one__day__pass .week {
+        margin-left: 7.2rem;
+    }
+
+    .one__day__pass img {
+        bottom: 7rem;
+        width: 5rem;
+    }
+
+    .price {
+        gap: 5rem;
+    }
+
+    .monthly__pass .day {
+        margin-left: 6.6rem;
+    }
+
+    .monthly__pass .price {
+        gap: 5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pass__container {
+        bottom: 105rem;
+    }
+
+    .pass__container .bar {
+        width: 0.05rem;
+        height: 1rem;
+    }
+
+    .pass__container h4 {
+        margin-left: 1.5rem;
+        margin-top: -2.75rem;
+        font-size: 0.8em;
+    }
+
+    .pass__container .texts small {
+        font-size: 0.4em;
+    }
+
+    .pass {
+        gap: 1.9rem;
+        margin-top: 3rem;
+    }
+
+    .one__day__pass {
+        width: 14rem;
+        height: 13rem;
+    }
+
+
+    .one__day__pass .day {
+        margin-top: 3.8rem;
+        margin-left: 6.9rem;
+        font-size: 0.8rem;
+    }
+
+    .one__day__pass .week {
+        margin-top: 3.8rem;
+        margin-left: 6.3rem;
+        font-size: 0.8rem;
+    }
+
+    .one__day__pass img {
+        width: 4.2rem;
+        position: relative;
+        bottom: 6rem;
+        margin-left: 1rem;
+    }
+
+    .price {
+        bottom: 8rem;
+        gap: 4.75em;
+    }
+
+
+
+    .monthly__pass {
+        height: 14.5rem;
+        width: 14rem;
+        margin-top: -1.4rem;
+
+    }
+
+
+    .monthly__pass small {
+        font-size: 0.5rem;
+        color: var(--color-yel);
+
+    }
+
+    .monthly__pass span {
+        color: var(--color-grey);
+    }
+
+    .monthly__pass .day {
+        margin-top: 5.3rem;
+        margin-left: 5.9rem;
+        font-size: 0.8rem;
+    }
+
+    .monthly__pass img {
+        width: 5.5rem;
+        bottom: 8rem;
+    }
+
+    .monthly__pass .price {
+        bottom: 14rem;
+        gap: 4.75em;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .pass__container {
+        bottom: 55rem;
+    }
+
+
+    .pass {
+        gap: 0.8rem;
+        margin-top: 3rem;
+    }
+
+    .one__day__pass {
+        width: 10rem;
+        height: 10rem;
+    }
+
+
+    .one__day__pass .day {
+        margin-top: 3.2rem;
+        padding-top: 2.1rem;
+        margin-left: 5.3rem;
+        font-size: 0.6rem;
+    }
+
+    .one__day__pass .week {
+        margin-top: 3.2rem;
+        padding-top: 2.1rem;
+        margin-left: 4.5rem;
+        font-size: 0.6rem;
+    }
+
+    .one__day__pass img {
+        width: 3rem;
+        bottom: 3.8rem;
+    }
+
+    .price {
+        bottom: 5.4rem;
+        gap: 1.1rem;
+        padding: 0 0.3rem;
+    }
+
+
+
+    .monthly__pass {
+        height: 12.5rem;
+        width: 12rem;
+        margin-top: -1rem;
+
+    }
+
+
+    .monthly__pass .day {
+        margin-top: 5.7rem;
+        padding-top: 2.1rem;
+        margin-left: 6.1rem;
+        font-size: 0.6rem;
+    }
+
+    .monthly__pass img {
+        width: 4.5rem;
+        bottom: 6rem;
+    }
+
+    .monthly__pass .price {
+        bottom: 11.9rem;
+        gap: 2.6rem;
+        padding: 0 0.3rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .pass {
+        margin-top: -1rem;
+    }
+
+    .pass__container {
+        bottom: 67rem;
+    }
+
+    .one__day__pass .day {
+        margin-left: 4.8rem;
+    }
+
+    .one__day__pass .week {
+        margin-left: 4.1rem;
+    }
+
+    .monthly__pass .day {
+        margin-left: 5.5rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .pass__container {
+        bottom: 47rem;
+    }
+
+    .one__day__pass .day {
+        margin-left: 3.7rem;
+    }
+
+    .one__day__pass .week {
+        margin-left: 3rem;
+
+    }
+
+    .one__day__pass img {
+        margin-left: 0.6rem;
+    }
+
+    .price {
+        gap: 0.2rem;
+    }
+
+
+    .monthly__pass .day {
+        margin-left: 4.3rem;
+    }
+
+    .monthly__pass img {
+        margin-left: 0.5rem;
+    }
+
+    .monthly__pass .price {
+        gap: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .pass__container {
+        bottom: 87rem;
+    }
+
+    .pass__container .bars {
+        margin-left: 0.3rem;
+    }
+
+    .pass__container h4 {
+        margin-left: 1.8rem;
+    }
+
+    .pass {
+        display: block;
+    }
+
+
+    .one__day__pass {
+        width: 22rem;
+        height: 15rem;
+        margin-bottom: 2.5rem;
+        margin-left: 1.5rem;
+    }
+
+
+    .one__day__pass .day {
+        margin-top: 5.3rem;
+        padding-top: 3.9rem;
+        margin-left: 13.8rem;
+        font-size: 1.2em;
+    }
+
+    .one__day__pass .week {
+        margin-top: 5.3rem;
+        padding-top: 3.9rem;
+        margin-left: 12.2rem;
+        font-size: 1.2em;
+    }
+
+    .one__day__pass img {
+        width: 5rem;
+        bottom: 7rem;
+        margin-left: 2rem;
+    }
+
+    .price {
+        bottom: 9.7rem;
+        gap: 15.1rem;
+        padding: 0.2rem 0.3rem;
+    }
+
+
+
+    .monthly__pass {
+        width: 22rem;
+        height: 15rem;
+        margin-bottom: 1.5rem;
+        margin-left: 1.5rem;
+    }
+
+
+    .monthly__pass .day {
+        margin-top: 5.3rem;
+        padding-top: 3.9rem;
+        margin-left: 11.4rem;
+        font-size: 1.2em;
+    }
+
+    .monthly__pass img {
+        width: 5rem;
+        bottom: 7rem;
+        margin-left: 1.5rem;
+    }
+
+    .monthly__pass .price {
+        bottom: 13.1rem;
+        gap: 15.1rem;
+        padding: 0.2rem 0.3rem;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .pass__container {
+        bottom: 93rem;
+    }
+
+    .one__day__pass {
+        margin-left: 1.2rem;
+    }
+
+    .monthly__pass {
+        margin-left: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .pass__container {
+        bottom: 84rem;
+    }
+
+    .one__day__pass {
+        width: 20rem;
+        height: 15rem;
+        margin-bottom: 2.5rem;
+        margin-left: 1.6rem;
+    }
+
+
+    .one__day__pass .day {
+        margin-top: 7.3rem;
+        padding-top: 2.1rem;
+        margin-left: 11.9rem;
+        font-size: 1.2em;
+    }
+
+    .one__day__pass .week {
+        margin-top: 7.3rem;
+        padding-top: 2.1rem;
+        margin-left: 10.3rem;
+        font-size: 1.2em;
+    }
+
+    .one__day__pass img {
+        width: 5.5rem;
+        bottom: 8rem;
+    }
+
+    .price {
+        bottom: 10.9rem;
+        gap: 12.1rem;
+        padding: 0.2rem 0.3rem;
+    }
+
+
+
+    .monthly__pass {
+        width: 20rem;
+        height: 15rem;
+        margin-bottom: 1.5rem;
+        margin-left: 1.6rem;
+
+    }
+
+
+    .monthly__pass .day {
+        margin-top: 5.3rem;
+        margin-left: 10rem;
+        font-size: 1.1em;
+    }
+
+    .monthly__pass img {
+        width: 5.5rem;
+        bottom: 8rem;
+    }
+
+    .monthly__pass .price {
+        bottom: 14rem;
+        gap: 12.1rem;
+        padding: 0.2rem 0.3rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .pass__container {
+        bottom: 62rem;
+    }
+
+    .one__day__pass {
+        margin-left: 1.1rem;
+    }
+
+    .monthly__pass {
+        margin-left: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .pass__container {
+        bottom: 72rem;
+    }
+
+    .pass__container .texts {
+        margin-bottom: -1rem;
+    }
+
+    .one__day__pass {
+        width: 19rem;
+        height: 15rem;
+        margin-left: 1.2rem;
+    }
+
+
+    .one__day__pass .day {
+        margin-top: 7.3rem;
+        padding-top: 2.1rem;
+        margin-left: 10.9rem;
+        font-size: 1.2em;
+    }
+
+    .one__day__pass .week {
+        margin-top: 7.3rem;
+        padding-top: 2.1rem;
+        margin-left: 9.4rem;
+        font-size: 1.2em;
+    }
+
+    .monthly__pass {
+        width: 19rem;
+        height: 15rem;
+        margin-left: 1.2rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .monthly__pass .day {
+        margin-top: 7.3rem;
+        padding-top: 2.1rem;
+        margin-left: 8.5rem;
+        font-size: 1.2em;
+    }
+
+    .monthly__pass .price {
+        bottom: 14.2rem;
     }
 }

@@ -32,7 +32,7 @@ const data = [
     },
     {
         image: S_image3,
-        type: 'STRENGTH TRAINING',
+        type: 'STRENGTH',
         description: 'Lorem ipsum dolor sit amet.',
     },
     {
@@ -85,7 +85,16 @@ const SecondSection = () => {
                 settings: {
                     dots: true,
                     infinite: true,
-                    slidesToShow: 3,
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 414,
+                settings: {
+                    dots: true,
+                    infinite: true,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                 }
             },
@@ -108,7 +117,7 @@ const SecondSection = () => {
                         return (
                             <div key={index} className="second__container-cards">
                                 <img src={image} alt="" />
-                                <h3> <a href="">{type}   <BsChevronCompactRight className='arrow' /></a></h3>
+                                <h3> <a href="">{type}<BsChevronCompactRight className='arrow' /></a></h3>
                                 <small>{description}</small>
                             </div>
 
