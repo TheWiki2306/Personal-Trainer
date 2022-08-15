@@ -199,17 +199,27 @@
     }
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 320px) {
+
+
     .close {
         left: 5rem;
+        position: absolute;
+        left: 17rem;
     }
 
     .list__container {
-        width: 14.5rem;
+        width: 16.2rem;
         margin-left: -0.5rem;
+        position: relative;
+        top: 2rem;
+    }
+
+    .sliding__container .signin {
+        margin-top: -1.2rem;
     }
 
     .sliding__container .signup {
-        margin-left: 9rem;
+        margin-left: 11rem;
     }
 }

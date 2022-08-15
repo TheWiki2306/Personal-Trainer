@@ -202,3 +202,10 @@
     }
 
 }
+
+@media screen and (max-width: 320px) {
+    .support__container {
+        bottom: 48rem;
+        gap: 1rem;
+    }
+}

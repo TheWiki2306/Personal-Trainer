@@ -239,3 +239,21 @@
         margin-left: 0.7rem;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .container.contact__container {
+        margin-top: -66rem;
+    }
+
+    .contact__container .texts {
+        margin-bottom: 2rem;
+    }
+
+    .contact__options {
+        margin-left: 0.5rem;
+    }
+
+    .contact__option {
+        width: 18rem;
+    }
+}
