@@ -238,7 +238,7 @@
     .footer__container .permalinks {
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+        gap: 4rem;
         align-items: center;
         margin-left: -2rem;
     }
