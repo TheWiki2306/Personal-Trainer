@@ -285,14 +285,6 @@
     }
 }
 
-@media screen and (max-width: 39px) {
-    .second__container {
-        bottom: 86rem;
-        gap: 2rem;
-    }
-
-}
-
 
 @media screen and (max-width: 375px) {
     .second__container {
@@ -306,7 +298,7 @@
     }
 
     .second__container {
-        bottom: 74rem;
+        bottom: 50rem;
     }
 }
 
