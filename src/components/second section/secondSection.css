@@ -282,6 +282,13 @@
     }
 }
 
+@media screen and (max-height: 630px) {
+    .second__container {
+        bottom: 60rem;
+    }
+}
+
+
 @media screen and (max-width: 320px) {
     .container.second__container {
         width: 93%;

@@ -814,6 +814,13 @@
     }
 }
 
+
+@media screen and (max-height: 630px) {
+    .pass__container {
+        bottom: 59rem;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .pass__container {
         bottom: 52rem;
