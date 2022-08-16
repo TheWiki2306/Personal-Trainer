@@ -235,7 +235,7 @@
     }
 
     .second__container {
-        bottom: 86rem;
+        bottom: 50rem;
         gap: 2rem;
     }
 
@@ -266,6 +266,35 @@
     }
 
 } */
+
+@media screen and (max-width: 395px) {
+
+    .second__container {
+        bottom: 50rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    .second__container {
+        bottom: 50rem;
+    }
+}
+
+
+@media screen and (max-width: 385px) {
+
+    .second__container {
+        bottom: 50rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .second__container {
+        bottom: 50rem;
+    }
+}
 
 @media screen and (max-width: 375px) {
     .second__container {
