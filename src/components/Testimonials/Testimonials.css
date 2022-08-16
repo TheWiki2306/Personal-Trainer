@@ -246,6 +246,12 @@
     }
 }
 
+@media screen and (max-height: 640px) {
+    .testimonials {
+        bottom: 61rem;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .testimonials {
         bottom: 50rem;

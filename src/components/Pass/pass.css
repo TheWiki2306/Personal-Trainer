@@ -772,6 +772,48 @@
     }
 }
 
+@media screen and (max-height: 640px) {
+    .pass__container {
+        bottom: 61rem;
+    }
+
+    .pass__container .texts {
+        margin-bottom: 2rem;
+    }
+
+
+
+    .one__day__pass .day {
+        margin-left: 11.9rem;
+        font-size: 1em;
+    }
+
+    .one__day__pass .week {
+        margin-left: 10.7rem;
+        font-size: 1em;
+
+    }
+
+    .price {
+        gap: 10rem;
+        bottom: 10.6rem;
+    }
+
+    .monthly__pass {
+        margin-bottom: 1.5rem;
+    }
+
+    .monthly__pass .day {
+        font-size: 1em;
+        margin-left: 10rem;
+    }
+
+    .monthly__pass .price {
+        gap: 10rem;
+        bottom: 13.9rem;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .pass__container {
         bottom: 52rem;

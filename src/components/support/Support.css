@@ -203,6 +203,12 @@
 
 }
 
+@media screen and (max-height: 640px) {
+    .support__container {
+        bottom: 58rem;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .support__container {
         bottom: 48rem;

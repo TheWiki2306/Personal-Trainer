@@ -196,3 +196,29 @@
         margin-left: -1rem;
     }
 }
+
+@media screen and (max-height: 640px) {
+    .footer {
+        height: 85vh;
+    }
+
+    .footer__container {
+        padding-top: 5rem;
+    }
+
+    .footer__container .permalinks {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        margin-left: -2rem;
+    }
+
+    .footer__container .footer__socials {
+        padding-left: 6.5rem;
+    }
+
+    .footer__container .footer__copyright {
+        margin-top: 12rem;
+    }
+}

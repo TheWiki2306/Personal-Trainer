@@ -1,6 +1,6 @@
 .second__section {
     position: relative;
-    bottom: 45rem;
+    bottom: 50rem;
     line-height: 1.2rem;
 }
 
@@ -158,6 +158,12 @@
 @media screen and (max-width: 360px) {
     .second__section {
         bottom: 75rem;
+    }
+}
+
+@media screen and (max-height: 640px) {
+    .second__section {
+        bottom: 63rem;
     }
 }
 

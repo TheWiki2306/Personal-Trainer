@@ -257,3 +257,10 @@
         width: 18rem;
     }
 }
+
+
+@media screen and (max-height: 640px) {
+    .container.contact__container {
+        margin-top: -77rem;
+    }
+}
