@@ -167,6 +167,13 @@
     }
 }
 
+@media screen and (max-height: 630px) {
+    .second__section {
+        bottom: 58rem;
+    }
+}
+
+
 @media screen and (max-width: 320px) {
     .second__section {
         bottom: 54rem;
