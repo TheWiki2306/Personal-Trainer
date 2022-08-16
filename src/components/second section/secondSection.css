@@ -229,6 +229,32 @@
     }
 }
 
+@media screen and (max-width: 410px) {
+    .second__container {
+        bottom: 50rem;
+    }
+}
+
+
+@media screen and (max-width: 408px) {
+    .second__container {
+        bottom: 50rem;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .second__container {
+        bottom: 50rem;
+    }
+}
+
+
+@media screen and (max-width: 403px) {
+    .second__container {
+        bottom: 50rem;
+    }
+}
+
 @media screen and (max-width: 400px) {
     .container.second__container {
         width: 90%;
@@ -259,42 +285,14 @@
     }
 }
 
-/* @media screen and (max-width: 393px) {
+@media screen and (max-width: 39px) {
     .second__container {
         bottom: 86rem;
         gap: 2rem;
     }
 
-} */
-
-/* @media screen and (max-width: 395px) {
-
-    .second__container {
-        bottom: 50rem;
-    }
 }
 
-@media screen and (max-width: 390px) {
-
-    .second__container {
-        bottom: 50rem;
-    }
-}
-
-
-@media screen and (max-width: 385px) {
-
-    .second__container {
-        bottom: 50rem;
-    }
-}
-
-@media screen and (max-width: 380px) {
-
-    .second__container {
-        bottom: 50rem;
-    }
-} */
 
 @media screen and (max-width: 375px) {
     .second__container {
@@ -312,53 +310,7 @@
     }
 }
 
-@media screen and (max-width: 355px) {
-    .second__container {
-        bottom: 40rem;
-    }
-}
 
-
-@media screen and (max-width: 350px) {
-    .second__container {
-        bottom: 40rem;
-    }
-}
-
-
-@media screen and (max-width: 345px) {
-    .second__container {
-        bottom: 40rem;
-    }
-}
-
-
-@media screen and (max-width: 340px) {
-    .second__container {
-        bottom: 40rem;
-    }
-}
-
-
-@media screen and (max-width: 335px) {
-    .second__container {
-        bottom: 40rem;
-    }
-}
-
-
-@media screen and (max-width: 330px) {
-    .second__container {
-        bottom: 40rem;
-    }
-}
-
-
-@media screen and (max-width: 325px) {
-    .second__container {
-        bottom: 40rem;
-    }
-}
 
 @media screen and (max-width: 320px) {
     .container.second__container {
