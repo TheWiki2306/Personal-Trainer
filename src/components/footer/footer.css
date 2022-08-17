@@ -265,7 +265,11 @@
     }
 }
 
-@media screen and (max-height: 790px) {}
+@media screen and (max-height: 790px) {
+    .footer__container .permalinks {
+        flex-direction: column;
+    }
+}
 
 @media screen and (max-height: 740px) {
     .footer {
