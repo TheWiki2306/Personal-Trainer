@@ -18,12 +18,12 @@ const Footer = () => {
                     </ul>
 
                     <div className="footer__socials">
-                        <a href="https://intagram.com"><GrInstagram /></a>
+                        <a href="https://instagram.com"><GrInstagram /></a>
                         <a href="https://twitter.com"><BsTwitter /></a>
                     </div>
 
                     <div className="footer__copyright">
-                        <small> &copy; <span>GYM</span>online, 2022 .</small>
+                        <small> &copy; <span>GYM</span>online, 2022.</small>
                     </div>
                 </div>
 

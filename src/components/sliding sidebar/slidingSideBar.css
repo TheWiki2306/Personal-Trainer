@@ -223,3 +223,16 @@
         margin-left: 11rem;
     }
 }
+
+
+@media screen and (max-height: 812px) {}
+
+
+@media screen and (max-height: 667px) {}
+
+
+@media screen and (max-height: 640px) {}
+
+@media screen and (max-height: 630px) {}
+
+@media screen and (max-height: 625px) {}

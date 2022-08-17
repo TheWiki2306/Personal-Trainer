@@ -230,6 +230,7 @@
     }
 }
 
+
 @media screen and (max-width: 360px) {
     .container.contact__container {
         margin-top: -88rem;
@@ -237,18 +238,6 @@
 
     .contact__options {
         margin-left: 0.7rem;
-    }
-}
-
-@media screen and (max-height: 640px) {
-    .container.contact__container {
-        margin-top: -77rem;
-    }
-}
-
-@media screen and (max-height: 630px) {
-    .container.contact__container {
-        margin-top: -75rem;
     }
 }
 
@@ -261,11 +250,99 @@
         margin-bottom: 2rem;
     }
 
+    .contact__container h4 {
+        margin-left: 1.5rem;
+        font-size: 0.8em;
+    }
+
     .contact__options {
         margin-left: 0.5rem;
     }
 
     .contact__option {
         width: 18rem;
+    }
+
+    .contact__option h4 {
+        margin-left: 0;
+    }
+
+}
+
+
+@media screen and (max-height: 812px) {
+    .container.contact__container {
+        margin-top: -97rem;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    .container.contact__container {
+        margin-top: -80rem;
+    }
+}
+
+@media screen and (max-height: 740px) {
+    .container.contact__container {
+        margin-top: -87rem;
+    }
+}
+
+@media screen and (max-height: 720px) {
+    .container.contact__container {
+        margin-top: -85rem;
+    }
+}
+
+@media screen and (max-height: 667px) {
+    .container.contact__container {
+        margin-top: -80rem;
+    }
+
+}
+
+
+@media screen and (max-height: 640px) {
+    .container.contact__container {
+        margin-top: -77rem;
+    }
+
+    .contact__container h4 {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-height: 630px) {
+    .container.contact__container {
+        margin-top: -75rem;
+    }
+
+    .contact__container h4 {
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-height: 625px) {
+    .container.contact__container {
+        margin-top: -45rem;
+    }
+
+    .contact__container h4 {
+        margin-left: 1.5rem;
+    }
+
+
+    .contact__option h4 {
+        margin-left: -0.5rem;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .container.contact__container {
+        margin-top: -60rem;
+    }
+
+    .contact__options {
+        margin-left: 0;
     }
 }

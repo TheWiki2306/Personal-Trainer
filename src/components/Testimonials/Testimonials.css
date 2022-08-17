@@ -246,21 +246,78 @@
     }
 }
 
+@media screen and (max-width: 320px) {
+    .testimonials {
+        bottom: 50rem;
+    }
+
+    .testimonials__container h3 {
+        margin-left: 1.5rem;
+
+    }
+}
+
+@media screen and (max-height: 812px) {
+    .testimonials {
+        bottom: 80rem;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    .testimonials {
+        bottom: 65rem;
+    }
+}
+
+@media screen and (max-height: 740px) {
+    .testimonials {
+        bottom: 72rem;
+    }
+}
+
+@media screen and (max-height: 720px) {
+    .testimonials {
+        bottom: 69rem;
+    }
+}
+
+@media screen and (max-height: 667px) {
+    .testimonials {
+        bottom: 63rem;
+    }
+}
+
+
 @media screen and (max-height: 640px) {
     .testimonials {
         bottom: 61rem;
     }
 }
 
-
 @media screen and (max-height: 630px) {
     .testimonials {
         bottom: 59rem;
     }
+
+    .testimonials__container h3 {
+        margin-left: 1rem;
+
+    }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-height: 625px) {
     .testimonials {
-        bottom: 50rem;
+        bottom: 35rem;
+    }
+
+    .testimonials__container h3 {
+        margin-left: 1.5rem;
+
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .testimonials {
+        bottom: 45rem;
     }
 }

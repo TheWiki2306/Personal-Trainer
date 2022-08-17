@@ -45,6 +45,10 @@
     .second__container {
         bottom: 70rem;
     }
+
+    .second__container-cards {
+        margin-left: -2rem;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -262,8 +266,21 @@
 
 @media screen and (max-width: 375px) {
     .second__container {
-        bottom: 64rem;
+        bottom: 30rem;
     }
+}
+
+@media screen and (max-width: 320px) {
+    .container.second__container {
+        width: 93%;
+        margin-left: -0.3rem;
+    }
+
+    .second__container {
+        bottom: 54rem;
+    }
+
+
 }
 
 @media screen and (max-width: 360px) {
@@ -276,28 +293,71 @@
     }
 }
 
+@media screen and (max-height: 812px) {
+    .second__container {
+        bottom: 83rem;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    .second__container {
+        bottom: 74rem;
+    }
+
+}
+
+
+@media screen and (max-height: 740px) {
+    .second__container {
+        bottom: 74rem;
+    }
+}
+
+@media screen and (max-height: 720px) {
+    .second__container {
+        bottom: 72rem;
+    }
+}
+
+@media screen and (max-height: 667px) {
+    .container.second__container {
+        margin-left: 0.1rem;
+    }
+
+    .second__container {
+        bottom: 64.5rem;
+    }
+}
+
+
 @media screen and (max-height: 640px) {
     .second__container {
         bottom: 63rem;
     }
+
 }
 
 @media screen and (max-height: 630px) {
     .second__container {
-        bottom: 59.5rem;
+        bottom: 20rem;
     }
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-height: 625px) {
+    .second__container {
+        bottom: 48rem;
+    }
+}
+
+@media screen and (max-height: 600px) {
+
     .container.second__container {
-        width: 93%;
-        margin-left: -0.3rem;
+        margin-left: 2rem;
     }
 
     .second__container {
-        bottom: 54rem;
+        bottom: 53rem;
     }
-
 
 }
